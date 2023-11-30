@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            overflow-x: hidden;
+          
+        }
+
+        button {
+            position: absolute;
+            bottom: 20%;
+            left: 8%;
+            padding: 10px 20px;
+            font-size: 14px;
+            background: linear-gradient(to right, #0EBDB3, #64ed32);
+            background-color: ;
+            border-color: black;
+            color: white;
+            width: 100px;
+            border: none;
+            border-radius: 80px;
+            
+        }
+button.custom1 {
+    position: absolute;
+    bottom: 20%;
+    left: 45%;
+    padding: 8px 18px;
+    font-size: 14px;
+    background: linear-gradient(to right, #0EBDB3, #64ed32);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+
+    /* Set border with a gradient effect */
+    border: 2px solid;
+    border-image: linear-gradient(to right, #0EBDB3, #64ed32);
+    border-image-slice: 0;
+    border-bottom-left-radius: 50%; border-bottom-right-radius: 50%;
+
+    /* Set border-radius for the bottom to create a semi-circle */
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    box-shadow: 0 0 0 0.5px #0EBDB3, 0 0 0 0.5px #64ed32;
+    
+}
+
+
+
+ 
+
+      
+
+        .portrait-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 16px;
+            padding: 16px;
+        }
+
+        .portrait-card {
+            background-color: #fff;
+            border-radius: 8px;
+            width: 304px;
+            height: 680px;
+            padding: 12px;
+            box-shadow: 0 50px 90px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+        }
+
+        .portrait-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            left: 500%;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        h6 {
+            position: absolute;
+            bottom: 35%;
+            left: 27.6%;
+            transform: translateX(-50%);
+            font-size: 20px;
+            color: black;
+        }
+         h5 {
+            position: absolute;
+            bottom: 30%;
+            left: 14.7%;
+            transform: translateX(-50%);
+            font-size: 8px;
+            color: gray;
+        }
+         h4 {
+            position: absolute;
+            bottom: 32%;
+            left: 37%;
+            transform: translateX(-50%);
+            font-size: 8px;
+            color: gray;
+        }
+         h3 {
+            position: absolute;
+            bottom: 35%;
+            left: 32.7%;
+            transform: translateX(-50%);
+            font-size:20px;
+            color: black;
+        }
+
+       .footer {
+    background-color: #0EBDB3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom-left-radius: 10px; /* Adjust as needed */
+    border-bottom-right-radius: 10px; /* Adjust as needed */
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(to right, #0EBDB3, #64ed32);
+}
+
+    </style>
+    <title>Portrait Grid Layout</title>
+</head>
+
+<body>
+    
+
+    <div class="portrait-grid">
+        <div class="portrait-card">
+            <i class="gg-arrow-left" style="position: relative; bottom: -45%; left: 50%; "></i>
+            <i class="gg-lock"></i>
+                 <body>
+                <img src="IMG_20231124_113236.png" alt="Your Image Description"> </body>
+                </body> <button onclick="startMiniFacebook()">𝗦𝘁𝗮𝗿𝘁</button>
+            <button class="custom1" onclick="startMiniFacebook()">𝗦𝗸𝗶𝗽</button>
+
+           
+
+            <h6>𝖱𝖾𝖼𝗒𝖼𝗅𝖾 𝗒𝗈𝗎𝗋</h6>
+            <h5>𝗅𝖾𝗌𝗌 𝗐𝖺𝗌𝗍𝖾</h5>
+            <h4>𝖤𝖺𝗌𝗆𝗂𝗅𝗒 𝖼𝗈𝗅𝗅𝖾𝖼𝗍 𝗁𝗈𝗎𝗌𝖾𝗁𝗈𝗅𝖽 𝗐𝖺𝗌𝗍𝖾 𝖺𝗇𝖽 𝗀𝖾𝗇𝖾𝗋𝖺𝗍𝖾</h4>
+            <h3>𝗐𝖺𝗌𝗍𝖾 𝗉𝗋𝗈𝖽𝗎𝖼𝗍𝗌!</h3>
+            <div class="footer"></div>
+        </div>
+    </div>
+    <script>
+         function startMiniFacebook() {
+            window.location.href = "login.html";
+            }
+             var myImage = document.getElementById('myImage');
+
+        // Set the image source
+        myImage.src = "20231102_184235_0000.png";
+
+        myImage.onload = function() {
+            // Display the image once it's fully loaded
+            myImage.style.display = 'block';
+        };
+              
+              
+            
+            
+    </script>
+
+</body>
+
+</html>

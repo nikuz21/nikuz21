@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .curved-text {
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+  <svg height="200" width="400">
+    <text x="10" y="80" class="curved-text">
+      <textPath href="#curve">Bent how tirj the Text</textPath>
+    </text>
+    <path id="curve" d="M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80" fill="transparent"/>
+  </svg>
+</body>
+</html>

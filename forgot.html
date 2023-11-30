@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/lock.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/mail.css' rel='stylesheet'>
+<body>
+    
+</body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            overflow-x: hidden;
+        }
+        
+
+        button {
+            position: absolute;
+            bottom: 44%;
+            left: 8.5%;
+            padding: 9.5px 19.5px;
+            font-size: 14px;
+            background-color: #0EBDB3;
+            border-color: black;
+            color: white;
+            width: 276px;
+            border: none;
+            border-radius: 90px;
+            cursor: pointer;
+            background: linear-gradient(to right, #0EBDB3, #64ed32);
+        }
+
+        button.custom {
+            position: absolute;
+            bottom: 29.1%;
+            left: 8.5%;
+            padding: 7px 18px;
+            font-size: 12px;
+            background-color: gray;      
+            color: gray;
+            border: 2px solid #0EBDB3;
+            border-radius: 80px;
+            cursor: pointer;
+            background: linear-gradient(to right, #e3e8e5, #e3e8e5);
+        }
+
+        .portrait-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 16px;
+            padding: 16px;
+        }
+
+        .portrait-card {
+            background-color: #fff;
+            border-radius: 8px;
+            width: 304px;
+            height: 680px;
+            padding: 12px;
+            box-shadow: 0 50px 90px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+        }
+
+        .portrait-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            left: 500%;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .square {
+    position: relative;
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    background-color: #ccc; /* Add a background color or customize as needed */
+}
+
+h6 {
+    position: absolute;
+    top: 1%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Adjust the font size as needed */
+    color: white;
+    z-index: 1; /* Ensure the text is above the square */
+}
+h9 {
+    position: absolute;
+    top: 14%;
+    left: 31.5%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Adjust the font size as needed */
+    color: white;
+    z-index: 1; /* Ensure the text is above the square */
+}
+
+         h5 {
+            position: absolute;
+            bottom: 190px;
+            left: 55.4%;
+            transform: translateX(-50%);
+            font-size: 14px;
+            color: black;
+        }
+         h4 {
+            position: absolute;
+            bottom: 540px;
+            left: 12.5%;
+            transform: translateX(-50%);
+            font-size: 10px;
+            color: gray;
+        }
+         h1 {
+            position: absolute;
+            bottom: 450px;
+            left: 16.5%;
+            transform: translateX(-50%);
+            font-size: 10px;
+            color: gray;
+        }
+         h7 {
+            position: absolute;
+            bottom: 54.3%;
+            left: 26.5%;
+            transform: translateX(-50%);
+            font-size: 10px;
+            color: skyblue;
+        }
+         h8 {
+            position: absolute;
+            bottom: 40.5%;
+            left: 26.5%;
+            transform: translateX(-50%);
+            font-size: 10px;
+            color: gray;
+        }
+         
+         h3 {
+            position: absolute;
+            bottom: 550px;
+            left: 27%;
+            transform: translateX(-50%);
+            font-size: 30px;
+            color: black;
+        }
+        .customCheckbox {
+  position: relative;
+  left: -130px;
+  top: -24.6%;
+  width: 10px;
+  height: 10px;
+  /* Add any other styles as needed */
+}
+
+
+        .footer {
+    background-color: #0EBDB3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom-left-radius: 10px; /* Adjust as needed */
+    border-bottom-right-radius: 10px; /* Adjust as needed */
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(to right, #0EBDB3, #64ed32);
+}
+
+        
+        
+    </style>
+    <title>Portrait Grid Layout</title>
+</head>
+<body>
+    
+</body>
+<body>
+
+    <div class="portrait-grid">
+        <div class="portrait-card">
+            
+         <h6>            <h6></h6> </h6>
+
+             
+            <button onclick="startMiniFacebook()">𝖫𝗈𝗀𝗂𝗇</button>
+           
+            <input class="mainLoginInput" style="position: relative; left: 0%; width: 90%; background-color: #d3e8d1; padding: 9px; margin-bottom: 50%; bottom: -22%; box-sizing: border-box; border: 2px solid #0EBDB3; background: linear-gradient(to right, #color1, #color2); border-radius: 80px;" type="text" placeholder="𝖤𝗆𝖺𝗂𝗅" />
+
+ <input class="mainLoginInput" style="position: relative; left: 0%; width: 90%;  background-color: #d3e8d1; padding: 9px; margin-bottom: 50%; bottom: -8%; box-sizing: border-box; border: 2px solid #0EBDB3; border-radius: 80px;" type="password" placeholder="𝖯𝖺𝗌𝗌𝗐𝗈𝗋𝖽" />
+
+           <i class="gg-lock" style="position: relative; bottom: 17%; left: 85%; "></i> 
+           <i class="gg-mail" style="position: padding: 10% 20%; relative; bottom: 32.2%; left: 84%; "></i> 
+
+      <p style="position: relative; bottom: 17%; left: 30%; color: #yourColor; font-size: 10px;">
+  <a href="front.html" style="color: skyblue; text-decoration: underline;
+</p>
+
+ <p style="position: relative; bottom: 6.1%; left: 30%; color: #yourColor; font-size: 10px;">
+  <a href="front.html" style="color: skyblue; text-decoration: underline;"
+</p>
+
+
+ 
+   
+   <div style="position: relative; width: 50%; margin: 0 auto;">
+  
+
+  <div style="position: absolute; top: -80%; left: 30%; transform: translate(-40%, -40%); text-align: center; color: white; font-size: 5px; font-weight: bold;">
+   
+  </div>
+</div>
+<body>
+<div class="overlay-square" style="position: absolute; width: 328px; height: 120px; margin-top: -418px; margin-left: -12.1px; border-radius: 9px; margin-bottom: -150px;background: linear-gradient(to right, #0EBDB3, #64ed32); background-color: #3498db; z-index: 1;"></div>
+ <h6>            <h6>𝖥𝖮𝖱𝖦𝖮𝖳</h6>
+  <h9>𝗣𝗔𝗦𝗦𝗪𝗢𝗥𝗗</h9>
+
+</body>
+
+
+
+
+
+           
+            <h4>𝖤𝗆𝖺𝗂𝗅</h6>
+              <h1>𝖯𝖺𝗌𝗌𝗐𝗈𝗋𝖽</h1>
+             
+            
+                
+                
+            
+            <h3></h6>
+            <div class="footer"></div>
+            
+        </div>
+        
+    </div>
+    
+    <script>
+         function startMiniFacebook() {
+            window.location.href = "test.html";
+    </script>
+
+</body>
+
+</html>
